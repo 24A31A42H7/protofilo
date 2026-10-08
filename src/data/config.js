@@ -8,7 +8,8 @@ export const profile = {
   location: "India",
   // Drop your photo at src/assets/profile.jpg and it will show up automatically.
   //photo: "/profile-placeholder.svg",
-  photo:"src/assets/profile1.jpg",
+  photo:"src/assets
+/profile1.jpg",
   
   resumeUrl: "/resume.pdf", // put your resume file in /public and update this path
   social: {
