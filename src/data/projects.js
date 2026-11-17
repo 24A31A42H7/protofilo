@@ -1,3 +1,7 @@
+import newsMonitoring from "../assets/newmoniteringsystem.png";
+import trackMyGrade from "../assets/trackmygrade.png";
+import aiSmartGrid from "../assets/aismartgrid.png";
+
 // Add a new project by adding another object to this array.
 export const projects = [
   {
@@ -9,7 +13,7 @@ export const projects = [
     tech: ["React", "FastAPI", "MySQL", "APIs", "AI"],
     github: "https://github.com/24A31A42H7/NewsPulse",
     demo: "",
-    image: "src/assets/newmoniteringsystem.png",
+    image: newsMonitoring,
   },
   {
     name: "Student Performance Tracker",
@@ -20,16 +24,17 @@ export const projects = [
     tech: ["React", "Node.js", "MongoDB", "APIs"],
     github: "https://github.com/24A31A42H7/TrackMyGrade",
     demo: "",
-    image: "src/assets/trackmygrade.png",
+    image: trackMyGrade,
   },
   {
     name: "Ai Smart Grid",
-    description: "Built a machine learning model to predict wind and solar power generation using meteorological data for optimized energy grid management.",
+    description:
+      "Built a machine learning model to predict wind and solar power generation using meteorological data for optimized energy grid management.",
     longDescription:
-      "Developed a machine learning pipeline to predict wind and solar power output using historical meteorological data and environmental features. Implemented time-series preprocessing and regression models (such as LSTM ) to accurately forecast energy generation, helping optimize grid management and renewable integration.",
+      "Developed a machine learning pipeline to predict wind and solar power output using historical meteorological data and environmental features. Implemented time-series preprocessing and regression models (such as LSTM) to accurately forecast energy generation, helping optimize grid management and renewable integration.",
     tech: ["React", "Python"],
     github: "https://github.com/24A31A42H7/AiSmartGrid-Supply",
     demo: "",
-    image: "src/assets/aismartgrid.png",
+    image: aiSmartGrid,
   },
 ];
