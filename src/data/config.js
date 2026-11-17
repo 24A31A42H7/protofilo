@@ -1,3 +1,5 @@
+import profilePhoto from "../assets/profile1.jpg";
+
 // Edit this file to update your core info across the whole site.
 export const profile = {
   name: "Mahesh",
@@ -6,11 +8,9 @@ export const profile = {
     "Building intelligent, scalable, and user-focused applications with modern web technologies and AI.",
   email: "mahesh34252@gmail.com",
   location: "India",
-  // Drop your photo at src/assets/profile.jpg and it will show up automatically.
-  //photo: "/profile-placeholder.svg",
-  photo:"src/assets/profile1.jpg",
-  
-  resumeUrl: "/resume.pdf", // put your resume file in /public and update this path
+  photo: profilePhoto,
+
+  resumeUrl: "/resume.pdf", // put your resume file in /public
   social: {
     github: "https://github.com/24A31A42H7",
     linkedin: "https://linkedin.com/in/mahesh-k-m-79703132a",
